@@ -1,0 +1,39 @@
+/* home.css */
+
+/* Grid Utilities */
+.grid {
+  display: grid;
+  gap: 1.5rem; /* Gap between grid items */
+}
+
+/* Image Card Styles */
+.rounded-lg {
+  border-radius: 10px; /* Rounded corners */
+  overflow: hidden; /* Ensure no overflow */
+}
+
+.object-cover {
+  width: 640px; /* Full width */
+  height: 380px; /* Maintain aspect ratio */
+}
+
+/* Adjustments for the Search Section */
+.grid-cols-2 {
+  grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+}
+
+.min-h-\[200px\] {
+  min-height: 10px; /* Minimum height for image container */
+}
+
+/* Flex container for images */
+.flex {
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  gap: 1rem; /* Space between images */
+}
+
+/* Text styles */
+.text-center {
+  text-align: center; /* Center text */
+}

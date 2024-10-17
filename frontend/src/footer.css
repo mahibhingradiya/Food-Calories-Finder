@@ -1,0 +1,46 @@
+/* Footer Styles */
+.footer {
+    background-color: #1a202c;  /* Dark gray color for the footer background */
+    color: #ffffff;             /* White text for high contrast on dark background */
+    padding: 2rem 0;            /* Vertical padding to add space above and below the content */
+    text-align: center;         /* Center-align the text for a clean, balanced layout */
+    margin-top: 2rem;           /* Adds space between the footer and the preceding content */
+}
+
+/* Links within the footer */
+.footer a {
+    color: #ff6347;             /* Base color for the social media links (Tomato color) */
+    margin-left: 0.5rem;        /* Adds space to the left of each link for better readability */
+    transition: color 0.3s ease; /* Smooth color transition on hover for user feedback */
+}
+
+/* Change link color on hover */
+.footer a:hover {
+    color: #ff4500;             /* Darker shade of the base color when hovering over links */
+}
+
+/* Paragraph styles within the footer */
+.footer p {
+    margin: 0.5rem 0;           /* Adds vertical space between paragraphs for readability */
+}
+
+/* Container to center the content and restrict the width */
+.footer .container {
+    max-width: 1200px;          /* Limit the width of the content to 1200px for better structure */
+    margin: 0 auto;             /* Center the container horizontally */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .footer {
+        padding: 1rem 0;        /* Reduce padding on smaller screens to save space */
+    }
+    
+    .footer p {
+        font-size: 14px;        /* Decrease font size for readability on smaller devices */
+    }
+
+    .footer a {
+        margin-left: 0.25rem;   /* Slightly reduce the margin for smaller devices */
+    }
+}

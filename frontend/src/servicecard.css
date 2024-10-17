@@ -1,0 +1,47 @@
+/* Service Card Styles */
+.service-card {
+    background-color: #fff; /* White background */
+    padding: 20px; /* Inner padding */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth transition for hover effects */
+  }
+  
+  /* Icon Styles */
+  .service-card img {
+    background-color: #ff6347; /* Base color for background */
+    padding: 10px; /* Padding around the icon */
+    margin-bottom: 15px; /* Space below the icon */
+    border-radius: 50%; /* Circular icon */
+    width: 50px; /* Fixed width for icon */
+    height: 50px; /* Fixed height for icon */
+    object-fit: cover; /* Ensures the icon fits well */
+  }
+  
+  /* Title Styles */
+  .service-card h3 {
+    font-size: 1.5rem; /* Font size for the title */
+    font-weight: 600; /* Semi-bold font */
+    margin-bottom: 10px; /* Space below the title */
+    color: #343a40; /* Dark color for the title */
+  }
+  
+  /* Description Styles */
+  .service-card p {
+    color: #6c757d; /* Gray text color for the description */
+    font-size: 1rem; /* Normal font size */
+  }
+  
+  /* Hover Effect */
+  .service-card:hover {
+    transform: translateY(-5px); /* Lift card on hover */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .service-card {
+      margin: 10px; /* Margin for smaller screens */
+    }
+  }
+  

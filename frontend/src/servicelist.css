@@ -1,0 +1,5 @@
+.grid {
+    display: grid; /* Enable grid layout */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive columns */
+    gap: 1.5rem; /* Space between grid items */
+  }

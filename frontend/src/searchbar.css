@@ -1,0 +1,39 @@
+/* CSS for Searchbar Component */
+.input-group {
+    max-width: 1000px; /* Set a max width */
+    margin: 0 auto; /* Center align the input group */
+    padding: 20px; /* Add some padding */
+  }
+  
+  .form-control.inputstyle {
+    border: 2px solid #007bff; /* Blue border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding inside the select */
+    font-size: 16px; /* Increase font size */
+    transition: border-color 0.3s; /* Smooth transition */
+  }
+  
+  .form-control.inputstyle:focus {
+    border-color: #0056b3; /* Darker blue on focus */
+    outline: none; /* Remove default outline */
+  }
+  
+  .btn.whoop {
+    background-color: #007bff; /* Button color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Padding */
+    font-size: 16px; /* Increase font size */
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  
+  .btn.whoop:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  .mb-5 {
+    margin-bottom: 2rem; /* Adjust margin */
+  }
+  

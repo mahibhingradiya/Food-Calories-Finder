@@ -1,0 +1,183 @@
+/* General container styling */
+.container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Logo styling */  
+  .logo {
+    width: 150px;
+    height: auto;
+  }
+
+  .minutes {
+    font-weight: bolder;
+    color: green;
+  }
+
+  .nutrition-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.nutrition-value{
+  color: #082a4e;
+}
+.h11{
+  text-align: left;
+}
+
+.nutrition-list li {
+    display: flex;
+    justify-content: space-between;  /* This ensures the label and value are spaced out */
+    margin-bottom: 8px;  /* Add space between items */
+}
+
+.nutrition-list li span {
+    font-weight: bold;
+}
+
+
+  /* Input field styling */
+  .inputstyle {
+    border-radius: 30px;
+    padding: 15px;
+    border: 2px solid #e9ecef;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s;
+  }
+  
+  .inputstyle:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: inset 0 2px 5px rgba(0, 123, 255, 0.2);
+  }
+  
+  /* Button styling */
+  .whoop {
+    border-radius: 30px;
+    padding: 15px 25px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .whoop:hover {
+    background-color: #0056b3;
+    box-shadow: 0 5px 10px rgba(0, 123, 255, 0.3);
+  }
+  
+  /* Alert message styling */
+  .alert-warning {
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  .alert-danger {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  /* Nutritional values container */
+  .caloriescont {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .caloriescont h2 {
+    color:black;
+    font-size: 26px;
+  }
+  
+  .caloriescont ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .caloriescont li {
+    font-size: 18px;
+    padding: 10px 0;
+    border-bottom: 1px solid #e9ecef;
+  }
+  
+  .servingsize {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .float-end {
+    float: right;
+    font-weight: bold;
+    color: #6c757d;
+  }
+  
+  /* Exercise section */
+  .d-flex img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+  }
+  
+  h5 {
+    font-weight: bold;
+    color: #343a40;
+  }
+  
+  p {
+    margin: 0;
+    color: #6c757d;
+  }
+  
+  /* Exercise icons */
+  .img-responsive {
+    width: 50%;
+    height: auto;
+    max-width: 40px;
+    margin-top:auto;
+  }
+  
+  .chart{
+     position: relative;
+      height: 400px;
+       
+  }
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .col-md-6 {
+      margin-bottom: 30px;
+    }
+  
+    .input-group-lg {
+      flex-direction: column;
+    }
+  
+    .btn {
+      margin-top: 15px;
+    }
+  
+    .inputstyle {
+      padding: 10px;
+    }
+  
+    .caloriescont {
+      padding: 20px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  }
+  
